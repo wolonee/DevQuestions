@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevQuestions", "DevQuestions\DevQuestions.csproj", "{05CFA22E-5D6D-45FF-A945-D5E79BAEA213}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevQuestions.Entities", "src\DevQuestions.Entities\DevQuestions.Entities.csproj", "{DB0B71B5-4F48-4C6B-B263-B1D188311EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B8747839-4688-4DF4-A7D9-0A1E97EE1DD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05CFA22E-5D6D-45FF-A945-D5E79BAEA213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05CFA22E-5D6D-45FF-A945-D5E79BAEA213}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05CFA22E-5D6D-45FF-A945-D5E79BAEA213}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05CFA22E-5D6D-45FF-A945-D5E79BAEA213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0B71B5-4F48-4C6B-B263-B1D188311EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0B71B5-4F48-4C6B-B263-B1D188311EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0B71B5-4F48-4C6B-B263-B1D188311EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0B71B5-4F48-4C6B-B263-B1D188311EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB0B71B5-4F48-4C6B-B263-B1D188311EF5} = {B8747839-4688-4DF4-A7D9-0A1E97EE1DD0}
 	EndGlobalSection
 EndGlobal
